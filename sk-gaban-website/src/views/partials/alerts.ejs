@@ -1,0 +1,2 @@
+<% if (successMessages && successMessages.length) { successMessages.forEach(msg => { %><div class="alert alert-success alert-dismissible fade show" role="alert"><%= msg %><button type="button" class="btn-close" data-bs-dismiss="alert"></button></div><% }) } %>
+<% if (errorMessages && errorMessages.length) { errorMessages.forEach(msg => { %><div class="alert alert-danger alert-dismissible fade show" role="alert"><%= msg %><button type="button" class="btn-close" data-bs-dismiss="alert"></button></div><% }) } %>
